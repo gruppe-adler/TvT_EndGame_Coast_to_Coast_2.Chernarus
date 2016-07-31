@@ -11,6 +11,7 @@ VEHICLERESPAWNTIME = 400;             //time after which vehicles respawn
 VEHICLERESPAWNRADIUS = 500;           //distance between startposition and current position for a vehicle to start the respawn timer
 
 AUTOMATICRADIOS = false;               //automatically give players the correct radios - set this to true if you want to use vanilla loadouts
+SAMEENCRYPTION = true;                //enables radios of all sides to receive each other - use this if you want to give players a BLUFOR longrange and an INDEPENDENT shortrange (for example) - BLUFOR and OPFOR hear each other if both are on the same frequency
 BLUFORSWRADIO = "tf_anprc152";         //blufor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
 OPFORSWRADIO = "tf_anprc152";          //opfor sw radio - alternatives: tf_rf7800str, tf_anprc154, tf_pnr1000a, tf_anprc148jem
 BLUFORLRRADIO = "tf_rt1523g_big_rhs";  //blufor lr radio
